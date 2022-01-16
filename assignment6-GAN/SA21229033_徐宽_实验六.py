@@ -54,7 +54,7 @@ dataset = dset.ImageFolder(root=dataroot,
                            ]))
 # Create the dataloader
 dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size,
-                                         shuffle=True, num_workers=2)
+                                         shuffle=True, num_workers=0)
 
 # Decide which device we want to run on
 device = torch.device("cuda:0" if (torch.cuda.is_available()) else "cpu")
