@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Calculates the Frechet Inception Distance (FID) to evalulate GANs
+"""Calculates the Frechet Inception Distance (FID) to evalulate GANs 
 
 The FID metric calculates the distance between two distributions of images.
 Typically, we have summary statistics (mean & covariance matrix) of one
